@@ -1,0 +1,11 @@
+Question:
+
+Let's say we want to build a model to predict booking prices on Airbnb.
+Between linear regression and random forest regression, which model would perform better and why?
+
+Answer:
+Linear Regression would be better for modeling simpler continous functions
+Random Forest would be better at modeling more complex, non-linear functions
+
+For the booking data I would suggest a random forest model because we are probably looking at a dataset with many different features and complex interactions that vary based on geography and season (Assuming the dataset is global, which it probably is based on AirBnbs inventory).
+I would need to ask more information about the features and dataset itself but I think a random forest model would capture those interactions better than a linear regression model.
